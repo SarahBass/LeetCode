@@ -11,11 +11,11 @@ Meeting 1 :
 
 CORRECTLY SOLVED EXAMPLE 12 : [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
 
-INCORRECT SOLVED EXAMPLE 125: [Palindrome](https://leetcode.com/problems/valid-palindrome/)
+INCORRECT SOLVED EXAMPLE 125: [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
-SILLY SOLVED EXAMPLE 405: [Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)
+SILLY SOLVED EXAMPLE 405: [Decimal to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)
 
-SILLY SOLVED EXAMPLE 1017: [Binary](https://leetcode.com/problems/convert-to-base-2/)
+SILLY SOLVED EXAMPLE 1017: [Decimal to Binary](https://leetcode.com/problems/convert-to-base-2/)
 
 
 
