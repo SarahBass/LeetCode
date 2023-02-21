@@ -27,7 +27,7 @@ from random import randrange
 
 #Global Variables-------------------------#                             
 userInput=11                              # 
-num = random.randint(0,36)                #
+num = random.randint(0,34)                #
 randy1=[3, 6, 10, 60, 25, 100, 120, 333,  #
     444, 605, 999 ,                       #
     17,18,19,21,28,35,36,                 #
@@ -87,7 +87,7 @@ class Game:
         self.userAnswer= userAnswer
                 
 game1 = Game("Roman Quest", randnum, intToRoman(randnum),userInput)    
-game2 = Game("PAlindroME!", True, palindromenum, isPalindrome(isPalindrome,(userInput))) 
+game2 = Game("PAL-indrome", True, palindromenum, isPalindrome(isPalindrome,(userInput))) 
 game3 = Game("BinaryBeats", randnumber,bin(randnumber)[2:], userInput)
 game4 = Game("Witch's Hex",randnumber,hex(randnumber)[2:],userInput)
 
@@ -107,19 +107,39 @@ game4.text = hex(game4.answer)[2:]
 #                        START OF GAME                           # 
 #-=x=-=x=-=x=-=x=-=x=-=x=-=x=-=x=-=x=-=x=-=x=-=x=-=x=-=x=-=x=--=x=
 
-print( "☆‌ ╭◜◝‌ ‌͡‌ ‌◜◝╮‌ ")
-print( "  ‌(‌ 。‌•‿•‌‌ ‌) ☆ " + game1.name)
-print( "☆‌ ╰◟◞‌ ‌͜‌ ‌◟◞‌  Question:" + game1.text)
-game1.userAnswer= int(input("Enter Number = "))
+print( "   ..... ‌҉‌")
+print( "☆ (‌。•‿•‌‌ )  " + game1.name)
+print( "   ~~~~~ ☆  Question:☆~" + game1.text +"~☆")
+game1.userAnswer= int(input("Enter Decimal Number = "))
 if game1.userAnswer == game1.answer:
     print("Correct!")
 else:
     print("Oops! The correct answer is ", game1.answer)
+print(" -------------------------------- ")     
+print( "☽‌ ╭◜◝‌ ‌͡‌ ‌◜◝╮‌ ")
+print( "  ‌(‌ 。‌•‿•‌‌ ‌) ☆ " + game2.name)
+print( "☆‌ ╰◟◞‌ ‌͜‌ ‌◟◞‌  Question: Multiply ☆~" , game2.text, "~☆ by this Pal to make a Palindrome")
+game1.userAnswer= int(input("Palindrome Pal = "))
+if isPalindrome(isPalindrome,game1.userAnswer*game2.text) == game2.answer:
+    print("Correct!")
+else:
+    print("Oops! Not a palinrome")
+print(" -------------------------------- ")    
+print( "     / \ ‌‌")
+print( "☆ ‌<。‌•‿•‌。>  " + game3.name)
+print( "   /,  ,'\ ☆  Question:☆~" + game3.text +"~☆")
+game3.userAnswer= int(input("Enter Decimal Number = "))
+if game3.userAnswer == game3.answer:
+    print("Correct!")
+else:
+    print("Oops! The correct answer is ", game3.answer)
+print(" -------------------------------- ")    
+print( "  / \   ‌‌")
+print( "< •‿•‌ >  " + game4.name)
+print( "  \ / ☆  Question: The Witch has cast this Hexidecimal: ☆~" + game4.text +"~☆ ")
+game4.userAnswer= int(input("Enter Decimal Number Counterspell: "))
+if game4.userAnswer == game4.answer:
+    print("Correct!")
+else:
+    print("Oops! The correct answer is ", game4.answer)
 
-#game2.userAnswer= isPalindrome(isPalindrome, int(input("Enter Number = ")))
-#game3.userAnswer= int(input("Enter Number = "))
-#game4.userAnswer= int(input("Enter Number = "))
-            
-
-        
-#When game answer and useranswer match say correct
