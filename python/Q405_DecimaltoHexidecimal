@@ -1,3 +1,34 @@
 class Solution:
     def toHex(self, num: int) -> str:
         return hex(2 ** 32 + num if num < 0 else num)[2:]
+
+
+or 
+
+class Solution:
+    def toHex(self, num: int) -> str:
+        # Corner case, because the while loop skips num == 0
+        if not num:
+            return "0"
+
+        # Constants
+        HEX_A = 'a'
+        BASE = 16
+        DEC = 10
+        MAX_NUM = 2 ** 32
+
+        # Two's complement
+        if num < 0:
+            num = MAX_NUM + num
+
+        # Subtract modulo from num until there's nothing left, append hex into ret.
+        ret = ""
+        while num:
+            # Subtract the modulo from num
+            num = (num - (c_int := int(num % BASE))) // BASE
+
+            # Convert the module to a single hex number
+            ret += str(c_int) if c_int < DEC else chr(ord(HEX_A) + c_int - DEC)
+
+        # Answer is backward
+        return ret[::-1]
