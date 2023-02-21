@@ -5,15 +5,17 @@ Storage For Leetcode for Online Tutoring Zoom Meetings
 
 Meeting 1 :
 
-Online Python Compiler: [https://www.online-python.com/]
+[Online Python Compiler](https://www.online-python.com/)
 
-CORRECTLY SOLVED EXAMPLE 12 : https://leetcode.com/problems/integer-to-roman/
+[Online Python Guide](https://www.w3schools.com/python/python_casting.asp)
 
-INCORRECT SOLVED EXAMPLE 125: https://leetcode.com/problems/valid-palindrome/
+CORRECTLY SOLVED EXAMPLE 12 : [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
 
-SILLY SOLVED EXAMPLE 405: https://leetcode.com/problems/convert-a-number-to-hexadecimal/
+INCORRECT SOLVED EXAMPLE 125: [Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
-SILLY SOLVED EXAMPLE 1017: https://leetcode.com/problems/convert-to-base-2/
+SILLY SOLVED EXAMPLE 405: [Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)
+
+SILLY SOLVED EXAMPLE 1017: [Binary](https://leetcode.com/problems/convert-to-base-2/)
 
 
 
