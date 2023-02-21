@@ -29,6 +29,21 @@ class Solution:
         return first == second
         
         import math
+        
+        
+        import math
+
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        s = "".join(filter(lambda c: 'a' <= c <= 'z' or '0' <= c <= '9', s.lower()))
+        
+        if len(s) == 1:
+            return True
+        
+        first = s[:int(len(s) / 2.0)]
+        second = s[len(s) : int(math.ceil(len(s) / 2.0)) - 1 : -1]
+        
+        return first == second
 
 class Solution:
     def isPalindrome(self, s: str) -> bool:
