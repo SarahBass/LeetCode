@@ -1,3 +1,18 @@
+#Best:
+import math
+
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        s = "".join(filter(lambda c: 'a' <= c <= 'z' or '0' <= c <= '9', s.lower()))
+        
+        for i in range(len(s) // 2):
+            if s[i] != s[-i - 1]:
+                return False
+        
+        return True
+        
+        
+#Number Version:
 def isPalindrome(self, x):
     if x > 0:
         temp = x
@@ -13,8 +28,8 @@ def isPalindrome(self, x):
     else:
         return False
 
+#Variant 1:
 
-import math
 
 class Solution:
     def isPalindrome(self, s: str) -> bool:
@@ -28,10 +43,12 @@ class Solution:
         
         return first == second
         
-        import math
+
+
+
+#Variant 2:
         
         
-        import math
 
 class Solution:
     def isPalindrome(self, s: str) -> bool:
@@ -44,6 +61,9 @@ class Solution:
         second = s[len(s) : int(math.ceil(len(s) / 2.0)) - 1 : -1]
         
         return first == second
+        
+
+#Variant 3:        
 
 class Solution:
     def isPalindrome(self, s: str) -> bool:
