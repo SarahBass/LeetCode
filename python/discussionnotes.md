@@ -1,10 +1,9 @@
 # Leetcode Discussion Notes
 
+<img src="https://leetcode.com/static/images/LeetCode_Sharing.png" width="400" height="200" />
+
 -------------------------------------
-## Silly Discussion Starter
 
-
-<img src="https://github.com/SarahBass/LeetCode/blob/main/python/study/Screen%20Shot%202023-02-21%20at%206.50.52%20PM.png" width="300" height="200" />
 
 ### Topics:
 
@@ -17,6 +16,13 @@
 [Q1017 Solution](https://github.com/SarahBass/LeetCode/blob/main/python/Q1072_DecimaltoBinary) : [Decimal to Binary](https://leetcode.com/problems/convert-to-base-2/)
 
 -----------------------------------
+
+## Silly Discussion Starter
+
+
+<img src="https://github.com/SarahBass/LeetCode/blob/main/python/study/Screen%20Shot%202023-02-21%20at%206.50.52%20PM.png" width="300" height="200" />
+
+------------------------------------------
 
 ## Discussion Summary
 
@@ -32,7 +38,7 @@ Terse (or Minified solutions) vs expanded - which are better in practice for an 
  the Big 0 of solutions
  
  
-<img src="https://github.com/SarahBass/LeetCode/blob/main/python/study/Screen%20Shot%202023-02-21%20at%206.48.58%20PM.png" width="400" height="70" />
+<img src="https://github.com/SarahBass/LeetCode/blob/main/python/study/Screen%20Shot%202023-02-21%20at%206.48.58%20PM.png" width="300" height="50" />
  
 Two pointer solutions 
 
