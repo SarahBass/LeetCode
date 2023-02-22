@@ -7,15 +7,17 @@ Meeting 1 :
 
 [Online Python Guide](https://www.w3schools.com/python/python_casting.asp)
 
+[Online Python Guide](https://docs.python.org/3/library/math.html)
+
 Topics:
 
-Q12: [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
+[Q12 Solution](https://github.com/SarahBass/LeetCode/blob/main/python/Q12_IntegertoRoman) : [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
 
-Q125: [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+[Q125 Solution](https://github.com/SarahBass/LeetCode/blob/main/python/Q125_Palindrome): [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
-Q405: [Decimal to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)
+[Q405 Solution](https://github.com/SarahBass/LeetCode/blob/main/python/Q405_DecimaltoHexidecimal) : [Decimal to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)
 
-Q1017: [Decimal to Binary](https://leetcode.com/problems/convert-to-base-2/)
+[Q1017 Solution](https://github.com/SarahBass/LeetCode/blob/main/python/Q1072_DecimaltoBinary) : [Decimal to Binary](https://leetcode.com/problems/convert-to-base-2/)
 
 
 
