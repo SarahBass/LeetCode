@@ -1,5 +1,14 @@
 import math
 
+#Best Short:
+
+
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        s = "".join(filter(lambda c: 'a' <= c <= 'z' or '0' <= c <= '9', s.lower()))
+        
+        return s == s[::-1]
+
 #Best Simple:
 
 class Solution:
