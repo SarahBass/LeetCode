@@ -1,16 +1,20 @@
-## Files Explained
-
-The following .py Solution Files are answers made during in zoom discussion. 
-
-The .py game is a silly discussion opener to show the Leetcode solutions in use in a full program. 
-
-The study Folder includes any discussion photos or notes shared in the chat
+# Leetcode Discussion Notes
 
 -------------------------------------
 ## Silly Discussion Starter
 
 
 <img src="https://github.com/SarahBass/LeetCode/blob/main/python/study/Screen%20Shot%202023-02-21%20at%206.50.52%20PM.png" width="300" height="200" />
+
+### Topics:
+
+[Q12 Solution](https://github.com/SarahBass/LeetCode/blob/main/python/Q12_IntegertoRoman) : [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
+
+[Q125 Solution](https://github.com/SarahBass/LeetCode/blob/main/python/Q125_Palindrome): [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+
+[Q405 Solution](https://github.com/SarahBass/LeetCode/blob/main/python/Q405_DecimaltoHexidecimal) : [Decimal to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)
+
+[Q1017 Solution](https://github.com/SarahBass/LeetCode/blob/main/python/Q1072_DecimaltoBinary) : [Decimal to Binary](https://leetcode.com/problems/convert-to-base-2/)
 
 -----------------------------------
 
@@ -46,5 +50,12 @@ Leetcode is great, but the most important thing for job interview prep is to hav
 
 <img src="https://github.com/SarahBass/LeetCode/blob/main/python/study/image000000.jpg" width="300" height="200" />
 
+## Files Explained
+
+The following .py Solution Files are answers made during in zoom discussion. 
+
+The .py game is a silly discussion opener to show the Leetcode solutions in use in a full program. 
+
+The study Folder includes any discussion photos or notes shared in the chat
 
 
