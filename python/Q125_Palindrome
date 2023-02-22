@@ -1,5 +1,6 @@
-#Best:
 import math
+
+#Best Simple:
 
 class Solution:
     def isPalindrome(self, s: str) -> bool:
@@ -11,6 +12,40 @@ class Solution:
         
         return True
         
+#Best Two Pointer
+
+import math
+
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        # Idea: Two pointers, starting from start/end, walk inward and skip over invalid alphanumeric characters.
+        # Time: O(N), Memory: O(1)
+
+        def valid_alphanumeric(c):
+            return 'A' <= c <= 'Z' or 'a' <= c <= 'z' or '0' <= c <= '9'
+
+        start = 0
+        end = len(s) - 1
+
+        while start < end:
+            # Advance only start
+            if not valid_alphanumeric(s[start]):
+                start += 1
+
+            # Advance only end
+            elif not valid_alphanumeric(s[end]):
+                end -= 1
+
+            # Advance both and check equality
+            else:
+                if s[start].lower() != s[end].lower():
+                    return False
+
+                start += 1
+                end -= 1
+       
+        # Loop finished, so nothing was inequal, return True.
+        return True
         
 #Number Version:
 def isPalindrome(self, x):
