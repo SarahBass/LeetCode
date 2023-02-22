@@ -5,8 +5,6 @@ Storage For Leetcode for Online Tutoring Zoom Meetings
 
 ### Meeting 1
 
-Notes:
-
 [Discussion Summary](https://github.com/SarahBass/LeetCode/blob/main/python/discussionnotes.md)
 
 Topics:
