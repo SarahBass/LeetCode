@@ -9,13 +9,15 @@ Meeting 1 :
 
 [Online Python Guide](https://www.w3schools.com/python/python_casting.asp)
 
-CORRECTLY SOLVED EXAMPLE 12 : [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
+Topics:
 
-INCORRECT SOLVED EXAMPLE 125: [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+Q12:[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
 
-SILLY SOLVED EXAMPLE 405: [Decimal to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)
+Q125: [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
-SILLY SOLVED EXAMPLE 1017: [Decimal to Binary](https://leetcode.com/problems/convert-to-base-2/)
+Q405: [Decimal to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)
+
+Q1017: [Decimal to Binary](https://leetcode.com/problems/convert-to-base-2/)
 
 
 
