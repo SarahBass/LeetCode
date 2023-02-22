@@ -28,7 +28,7 @@
 
 The extensive library of Python math operations and string functions.
 
-<img src="https://github.com/SarahBass/LeetCode/blob/main/python/study/Screen%20Shot%202023-02-20%20at%2011.06.45%20PM.png" width="300" height="200" />
+[<img src="https://github.com/SarahBass/LeetCode/blob/main/python/study/Screen%20Shot%202023-02-20%20at%2011.06.45%20PM.png" width="300" height="200" />](https://www.w3schools.com/python/python_casting.asp)
 
 How [::-1] works the same as [i for i in range(length,-1,-1)] and why the range must be [length, -1] instead of [length, 0] 
 
