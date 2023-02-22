@@ -3,7 +3,7 @@ Storage For Leetcode for Online Tutoring Zoom Meetings
 
 <img src="https://leetcode.com/static/images/LeetCode_Sharing.png" width="400" height="200" />
 
-### Meeting 1
+ Meeting 1 :
 
 [Discussion Summary](https://github.com/SarahBass/LeetCode/blob/main/python/discussionnotes.md)
 
