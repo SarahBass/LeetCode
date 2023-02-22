@@ -42,7 +42,7 @@ Terse (or Minified solutions) vs expanded - which are better in practice for an 
  
 Two pointer solutions 
 
-<img src="https://github.com/SarahBass/LeetCode/blob/main/python/study/Screen%20Shot%202023-02-21%20at%206.53.10%20PM.png" width="600" height="400" />
+<img src="https://github.com/SarahBass/LeetCode/blob/main/python/study/Screen%20Shot%202023-02-21%20at%206.53.10%20PM.png" width="300" height="200" />
 
  Speed of solving the problem vs efficiency in an interview : we determined that it is better to solve quickly with less efficient solutions, and then if there is still time left - ask if the interviewer would like the better solution 
  
